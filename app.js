@@ -4,7 +4,7 @@ const app = express()
 app.set('view engine', 'ejs');
 
 //middleware
-app.use(express.static('.public'));
+app.use(express.static('./public'));
 
 //GET
 app.get('/', function (req, res) {
