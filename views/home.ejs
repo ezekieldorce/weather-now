@@ -17,7 +17,15 @@
 
             </form>
 
-            <p>the weather in new york is 70 celcius</p>
+            <% if(err){ %>
+                <p><%= error %</p>
+            <% } else { %>
+                <p><%= weather %</p>
+            <% } %>
+
+            
+            
+            
         </div>
 </body>
 </html>
